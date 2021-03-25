@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    long long int n,i,k,;
+    long long int n,i,k,l;
     scanf("%lld",&n);
     if(n>0&&n<8)
         printf("%lld",n);
