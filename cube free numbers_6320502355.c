@@ -24,12 +24,14 @@ int main()
             if(l<3)
                 p++;
         }
-    }
 
+    }
     if(l>=3)
         printf("Not Cube Free");
     else
         printf("%lld",p);
+
+
 }
 
 
