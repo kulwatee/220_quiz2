@@ -10,7 +10,7 @@ int main()
         q=1;
         j=i;
         h=i;
-        while(h>0)
+        while(h>9)
         {
             h=h/10;
             q=q*10;
@@ -26,8 +26,8 @@ int main()
 
 
     }
-    printf("%d",k);
-    // printf("%d",w);
+   // printf("%d",k);
+     printf("%d",w);
 
 
 }
