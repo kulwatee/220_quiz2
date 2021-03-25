@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    long long int n;
+    long long int n,i,k,;
     scanf("%lld",&n);
     if(n>0&&n<8)
         printf("%lld",n);
@@ -19,7 +19,7 @@ int main()
         }
         if(l>=3)
         {
-
+            printf("Not Cube Free");
         }
     }
 
