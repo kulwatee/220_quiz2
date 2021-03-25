@@ -19,6 +19,6 @@ int main()
 
     }
     printf("%d",w);
-    printf("\n%d",k);
+
 
 }
