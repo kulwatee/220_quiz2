@@ -15,20 +15,19 @@ int main()
             h=h/10;
             q=q*10;
         }
-       // printf("\n%d",q);
         while(j>0)
         {
             k+=(j%10)*q;
             j=j/10;
             q=q/10;
         }
-      if(k==i)
-        w++;
+        if(k==i)
+            w++;
 
 
     }
     printf("%d",k);
-   // printf("%d",w);
+    // printf("%d",w);
 
 
 }
