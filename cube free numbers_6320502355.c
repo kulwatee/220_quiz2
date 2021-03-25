@@ -7,7 +7,7 @@ int main()
         printf("%lld",n);
     else
     {
-        for(q=8; q<n; q++)
+        for(q=8; q<n+1; q++)
         {
             l=0;
             w=q;
@@ -24,12 +24,12 @@ int main()
             if(l<3)
                 p++;
         }
-
-    }
-    if(l>=3)
+         if(l>=3)
         printf("Not Cube Free");
     else
         printf("%lld",p);
+
+    }
 
 
 }
