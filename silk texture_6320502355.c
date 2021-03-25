@@ -21,6 +21,7 @@ int main()
             w[s][d]='o';
         }
     }
+   // printf("%lld",a[0][0]);
     for(k=0; k<m; k++)
     {
         p=a[m][0];
@@ -33,11 +34,13 @@ int main()
         }
 
     }
-    for(e=0;e<n;e++)
-    {
-        for(t=0;t<70;t++)
-            printf("%c",a[e][t]);
-    }
+    //for(e=0;e<n;e++)
+   // {
+    //    for(t=0;t<70;t++)
+   //         printf("%c",w[e][t]);
+   // }
+  // printf("%lld",a[0][0]);
+  // printf("rr");
 
 
 
