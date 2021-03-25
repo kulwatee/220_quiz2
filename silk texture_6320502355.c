@@ -4,12 +4,12 @@ int main()
     long long int n,m;
     scanf("%lld",&n);
     scanf("%lld",&m);
-    long long int q[n][m];
-    for(i=0;i<n;i++)
+    long long int q[m][3];
+    for(i=0;i<m;i++)
     {
-        for(j=0;j<m;j++)
+        for(j=0;j<3;j++)
         {
-            scanf("%lld",)
+            scanf("%lld",q[i][j]);
         }
     }
 
