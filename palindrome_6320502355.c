@@ -6,6 +6,7 @@ int main()
     scanf("%lld",&n);
     for(i=1; i<n; i++)
     {
+        k=0;
         q=1;
         j=i;
         h=i;
@@ -24,8 +25,10 @@ int main()
       if(k==i)
         w++;
 
+
     }
-    printf("%d",w);
+    printf("%d",k);
+   // printf("%d",w);
 
 
 }
