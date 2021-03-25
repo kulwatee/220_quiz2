@@ -7,7 +7,21 @@ int main()
         printf("%lld",n);
     else
     {
-        while()
+        while(n>1)
+        {
+            while(n%i!=0)
+                i++;
+
+            n=n/i;
+            if(k==i)
+                l++;
+            k=i;
+        }
+        if(l>=3)
+        {
+
+        }
     }
+
 
 }
