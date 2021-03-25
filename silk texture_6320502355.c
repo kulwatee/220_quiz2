@@ -2,8 +2,9 @@
 #include<string.h>
 int main()
 {
-    long long int n,m,i,j,s,d,k,p,q,r,b,e,t;
+    long long int n,m,i,j,s,d,k,b,e,t;
     scanf("%lld",&n);
+    int p,q,r;
     scanf("%lld",&m);
     char w[n][70];
     long long int a[m][3];
@@ -21,26 +22,26 @@ int main()
             w[s][d]='o';
         }
     }
-   // printf("%lld",a[0][0]);
+
     for(k=0; k<m; k++)
     {
-        p=a[m][0];
-        q=a[m][1];
-        r=a[m][2];
+        p=a[k][0];
+        q=a[k][1];
+        r=a[k][2];
 
-        for(b=0; b<r; b++)
+        for(b=q; b<q+r; b++)
         {
-            w[p][q]='x';
+            w[p-1][b]='x';
         }
 
     }
-    //for(e=0;e<n;e++)
-   // {
-    //    for(t=0;t<70;t++)
-   //         printf("%c",w[e][t]);
-   // }
-  // printf("%lld",a[0][0]);
-  // printf("rr");
+    for(e=0; e<n; e++)
+    {
+        for(t=0; t<70; t++)
+            printf("%c",w[e][t]);
+        printf("\n");
+    }
+
 
 
 
