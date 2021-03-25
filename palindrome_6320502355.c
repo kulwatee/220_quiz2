@@ -26,8 +26,7 @@ int main()
 
 
     }
-   // printf("%d",k);
-     printf("%d",w);
+   printf("%d",w);
 
 
 }
