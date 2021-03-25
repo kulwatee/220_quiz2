@@ -2,7 +2,7 @@
 #include<string.h>
 int main()
 {
-    long long int n,m,i,j,s,d,k,p,q,r,b;
+    long long int n,m,i,j,s,d,k,p,q,r,b,e,t;
     scanf("%lld",&n);
     scanf("%lld",&m);
     char w[n][70];
@@ -11,7 +11,7 @@ int main()
     {
         for(j=0; j<3; j++)
         {
-            scanf("%lld",a[i][j]);
+            scanf("%lld",&a[i][j]);
         }
     }
     for(s=0; s<n; s++)
@@ -32,6 +32,11 @@ int main()
             w[p][q]='x';
         }
 
+    }
+    for(e=0;e<n;e++)
+    {
+        for(t=0;t<70;t++)
+            printf("%c",a[e][t]);
     }
 
 
