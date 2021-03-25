@@ -4,7 +4,7 @@ int main()
     int q,w=0;
     long long int n,k,i,j,h;
     scanf("%lld",&n);
-    for(i=1; i<n; i++)
+    for(i=1; i<=n; i++)
     {
         k=0;
         q=1;
