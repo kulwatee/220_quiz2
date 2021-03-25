@@ -31,7 +31,7 @@ int main()
 
         for(b=q; b<q+r; b++)
         {
-            w[p-1][b]='x';
+            w[p-1][b-1]='x';
         }
 
     }
